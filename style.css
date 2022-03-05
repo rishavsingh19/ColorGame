@@ -1,0 +1,120 @@
+#color-head{
+    background-color: #00ffff;
+    height: 195px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+}
+h2{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: size 25px;;
+}
+
+#game-domain{
+    position: absolute;
+    top: 195px;
+    background-color: rgb(238, 232, 232);
+    width: 100%;
+	margin: 0 auto;
+    height: 37.5px;
+    left: 0%;
+}
+button{
+    position: absolute;
+    text-align: center;
+    border: 1px;
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: aquamarine;
+}
+button:hover{
+    font-size: 17px;
+    background-color: #585c5a;
+}
+#newGame{
+    left: 29%;
+    font-family: 'Georgia', Times New Roman, Times, serif;
+}
+#easyG{
+    left: 58%;
+    font-family: 'Georgia', Times New Roman, Times, serif;
+    
+}
+#hardG{
+    left: 65%;
+    font-family: 'Georgia', Times New Roman, Times, serif;
+    
+}
+.selected{
+    background-color: #171718;
+    color: #c7f5f5;
+}
+
+.box {
+	width: 25%;
+	background-color: purple;
+	padding-bottom: 25%;
+	float: left;
+	margin: 2%;
+    border-radius: 20%;
+}
+#work {
+	max-width: 600px;
+	margin: 0 auto;
+	padding-top: 230px;
+
+}
+body{
+    background-color: #171718;
+}
+#try{
+    position: absolute;
+    font-size: 20px;
+    top: 7px;
+    left: 46%;
+}
+
+#colorDisplay{
+    text-align: center;
+    font-size: 40px;
+}
+
+@media screen  and (max-width: 700px) {
+    h2{
+        font-size: 1em;
+    }
+    #color-head{
+        height: 130px;
+    }
+    #colorDisplay{
+        font-size: 25px;
+    }
+    #game-domain{
+        top: 130px;
+        height: 28px;
+    }
+    button{
+        font-size: 12px;
+        font-weight: bold;
+        padding: 7px 14px;
+    }
+    #newGame{
+        left: 10%;
+    }
+    #hardG{
+        left: 84%;
+    }
+    #easyG{
+        left: 68%;
+    }
+    #work{
+        padding-top: 160px;
+    }
+    #try{
+        font-size: 14px;
+        font-weight: bolder;
+        left: 44%;
+    }
+}
